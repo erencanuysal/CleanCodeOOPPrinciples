@@ -1,7 +1,7 @@
 # CleanCodeOOPPrinciples
 
-CleanCodeOOPPrinciples yazılım ürününde OOP prensipleri çiğnenmiştir ve uygulamanın birçok yerinde kötü kokular (bad smells bkz: Clean Code, Robert C. Martin) bulunmaktadır. Bunları tespit edip düzeltmenizi bekliyoruz.
+The CleanCodeOOPPrinciples software product violates OOP principles and there are bad smells (see Clean Code, Robert C. Martin) in many parts of the application. We are waiting for you to detect and correct these mistakes.
 
-Ek olarak mimari yapıda da sorunlar bulunmaktadır. Mesela sistemde yeni bir Weapon tipi tanımlanırsa yaşanacak sorunlar nelerdir? Ayrıca sisteme yeni bir Human tipi gelirse nerelerde değişiklik yapmak gerekecek bu durum Open-Closed prensibinde ne gibi sorunlara yol açar? 
+In addition, there are problems in the architectural structure. For example, what are the problems that will be experienced if a new Weapon type is defined in the system? If a new Human type comes to the system, where will it be necessary to make changes and what kind of problems will these changes cause in the Open-Closed principle?
 
-Uygulamada genel olarak SOLID prensibini bozduğunu düşündüğünüz sınıfları istediğiniz gibi değiştirebilirsiniz. Yaptığınız değişikliklerin sebeplerini yorum satırı olarak yazmanızı bekliyoruz. En fazla iki sınıf için geleneğe uygun Javadoc yazmanızı istiyoruz. Uygulamayı herhangi bir Java IDE'sinde "ClearOOPAndPrinciples" sınıfını Run ederek çalıştırabilirsiniz.
+In the application, you can change the classes you think break the SOLID principle as you wish. We are waiting for you to write the reasons for the changes you have made as a comment line. We want you to write Javadocs according to the tradition for two classes that you choose. You can run the application in any Java IDE by Run class "ClearOOPAndPrinciples".
